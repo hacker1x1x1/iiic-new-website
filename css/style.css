@@ -1408,4 +1408,28 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
+
+#Main-logo {
+  width: 400px;
+  height:100px;
+  position:absolute;
+  top:10px;
+  left:10px;
+}
+
+.scroll-logo{
+  display:none;
+}
+.change1{
+display:none;
+}
+.change{
+
+  display:block;
+  font-size:30px;
+  font-weight: bold;
+  margin-top:5px;
+  color:#4997DF;
+}
+
 /*# sourceMappingURL=style.css.map */
