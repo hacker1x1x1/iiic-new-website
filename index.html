@@ -221,8 +221,40 @@
 				<div class="text-inner">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
-							<h1 class="to-animate">Info Communication Incubation Center at IIITA</h1>
-							<h2 class="to-animate">Incubating promising, innovative startups and aspiring entrepreneurs.</h2>
+								<h2 class="to-animate" style="font-size:50px" id="test2">IIITA</h2>
+							<h1 class="to-animate" style="font-size:65px" id="test">Info Communication<br/> Incubation Center</h1>
+<script type="text/javascript">
+
+var text = ["Entrepreneurship", "Convert it into a product!", "Info Communication<br/> Incubation Center"];
+var counter = 0;
+var elem = document.getElementById("test");
+var inst = setInterval(change,5000);
+
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= 3) {
+    counter = 0;
+  //   clearInterval(inst);
+  }
+}
+
+
+var text2 = ["Fostering", "Got an idea?","IIITA"];
+var counter2 = 0;
+var elem2 = document.getElementById("test2");
+var inst2 = setInterval(change2,5000);
+
+function change2() {
+  elem2.innerHTML = text2[counter2];
+  counter2++;
+  if (counter2 >= 3) {
+    counter2 = 0;
+    // clearInterval(inst);
+  }
+}
+</script>
+							
 						</div>
 					</div>
 				</div>
