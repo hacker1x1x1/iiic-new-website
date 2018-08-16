@@ -39,9 +39,8 @@
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	padding: 70px 0;
-
- float: left;
+	padding: 20px 0;
+        float: left;
 }
 .top-footer::before {
 	content: "";
@@ -224,13 +223,14 @@ footer {
 footer .footer_box {
   position: relative;
   margin-top: 50px;
+  float:right;
 }
 footer .footer_box h4.footer_title {
   text-transform: uppercase;
   padding: 0px 0;
   font-size: 18px;
   color: #000000;
-  float:left;
+  float:right;
 }
 footer .footer_box h4.footer_title:before {
   width: 30px;
@@ -285,8 +285,7 @@ footer .newsletter_form .form-control {
   color: #ffffff;
   width:100%;
   margin:0px auto;
-
-
+  float:right;
 }
 
 
