@@ -134,7 +134,7 @@
 
 			if ( scrlTop > 500 && scrlTop <= 2000 ) {
 				header.addClass('navbar-fixed-top fh5co-animated slideInDown');
-			} else if ( scrlTop <= 500 && window.location != 'https://newiiic.herokuapp.com/student_team.php' && window.location != 'https://newiiic.herokuapp.com/contact.php' ) {
+			} else if ( scrlTop <= 500 && window.location != 'https://newiiic.herokuapp.com/student_team.php' && window.location != 'https://newiiic.herokuapp.com/contact.php' && window.location != 'https://newiiic.herokuapp.com/faculty_team.php' ) {
 				if ( header.hasClass('navbar-fixed-top') ) {
 					header.addClass('navbar-fixed-top fh5co-animated slideOutUp');
 					setTimeout(function(){

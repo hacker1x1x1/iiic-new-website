@@ -99,7 +99,19 @@ include("header.php");
     }
 
 ?>	
-
+<style>
+	.parallax-mirror {
+    opacity: 1;
+    filter: blur(0px);
+}
+.inner_cover .inner_cover_content h3 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 84px;
+    font-weight: 500;
+    text-align: center;
+}
+</style>
 <!--page title section-->
 <section class="inner_cover parallax-mirror" data-parallax="scroll" data-image-src="assets/img/OK8NB00.jpeg">
     <div class="overlay_dark"></div>
