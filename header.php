@@ -185,7 +185,7 @@
 	</style>
 	<!-- End demo purposes only -->
 	<header role="banner" id="fh5co-header">
-		<img src="images/white_iiic.png" id="Main-logo" class="main-logo"style="position:absolute; top:0px; left:38px;">
+		
 			<div class="container">
 				<!-- <div class="row"> -->
 			    <nav class="navbar navbar-default">
@@ -193,6 +193,7 @@
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		            <span class="scroll-logo" > IIIC - IIITA</span>
+				<img src="images/white_iiic.png" id="Main-logo" class="main-logo"style="position:absolute; top:0px; left:38px;">
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right" >
