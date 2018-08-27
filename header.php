@@ -200,7 +200,7 @@
 
 
 		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-		            <li><a href="footer.php" target="_blank"><span>Why IIIC?</span></a></li>
+		            <li><a href="whyiiic.php" target="_blank"><span>Why IIIC?</span></a></li>
 		            <li><a href="#" data-nav-section="testimonials"><span>Our Association</span></a></li>
 		            <li><a id="events" href="events.php" data-nav-section="services"><span>Events</span></a></li>
 					<li><a id="apply" href="apply.php" data-nav-section="about"><span>Apply</span></a></li>
