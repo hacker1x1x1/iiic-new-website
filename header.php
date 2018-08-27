@@ -186,17 +186,19 @@
 	<!-- End demo purposes only -->
 	<header role="banner" id="fh5co-header">
 		
+			
 			<div class="container">
 				<!-- <div class="row"> -->
+
 			    <nav class="navbar navbar-default">
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		            <span class="scroll-logo" > IIIC - IIITA</span>
-				<img src="images/white_iiic.png" id="Main-logo" class="main-logo"style="position:absolute; top:0px; left:38px;">
+		            	<img src="images/white_iiic.png" id="Main-logo" class="main-logo" style="padding-right: 20px">
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
-		          <ul class="nav navbar-nav navbar-right" >
+		          <ul class="nav navbar-nav navbar-right">
 
 
 
@@ -205,8 +207,14 @@
 		            <li><a href="#" data-nav-section="testimonials"><span>Our Association</span></a></li>
 		            <li><a id="events" href="events.php" data-nav-section="services"><span>Events</span></a></li>
 					<li><a id="apply" href="apply.php" data-nav-section="about"><span>Apply</span></a></li>
+<li> <a class="" data-toggle="dropdown">Team
+   </a>
+    <ul class="dropdown-menu" >
+      <li><a href="#" style="color:black;">Faculty</a></li>
+      <li><a href="/student_team.php" style="color:black;">Student</a></li>
+     </ul></li>
 					<li><a id="pd" href="product-dev.php" data-nav-section="about"><span>Product Dev</span></a></li>
-					<li><a id="stdteam" href="student_team.php" data-nav-section="about"><span>Team</span></a></li>
+					
 		            <li><a id="contact" href="contact.php" target="_blank" data-nav-section="contact" ><span>Contact us</span></a></li>
 		          </ul>
 		        </div>
@@ -215,7 +223,6 @@
 				
 			  <!-- </div> -->
 		  </div>
-		  
 	</header>
 	
 
