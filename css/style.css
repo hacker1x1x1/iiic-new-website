@@ -873,7 +873,7 @@ h1, h2, h3, h4, h5, h6 {
   /* Android 2.3 */
   background-image: -webkit-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
   /* IE10+ */
-  background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
+  background-image: repeating-linear-gradient(to bottom right, #007223 0%, #29647a 100%);
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
 }
 #fh5co-work a {

@@ -51,6 +51,7 @@ IIIT Rd, Near Boys Hostel, Devghat, Jhalwa,</br> Allahabad, Uttar Pradesh 211015
 				</div>
 
 			</div>
+			<div id="map" class="to-animate"></div>
 		</div>
 	</section>
 

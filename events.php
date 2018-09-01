@@ -11,91 +11,87 @@ include("header.php");
 </style>
 <main>
 <!--page title section-->
-<section class="inner_cover parallax-mirror" data-parallax="scroll" data-image-src="assets/img/events/events.jpg">
-    <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <div class="col-12">
-                <div class="inner_cover_content">
-                    <h3 style="text-align:center;font-size:84px">
-                       EVENTS
-                    </h3>
-                </div>
-            </div>
-        </div>
 
-        
-    </div>
-</section>
 <!--page title section end-->
 <!--about the event -->
-<section class="pt100 pb100">
-    <div class="container">
-        <div class="section_title">
-            <h3 class="title">
-                About the events
-            </h3>
+<section id="fh5co-work" data-section="work">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-12 section-heading text-center">
+                    <h2 class="to-animate">EVENTS</h2>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                            <h3>ABOUT THE EVENTS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-bottom-padded-sm">
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                    <a href="images/work_1.jpg" class="fh5co-project-item image-popup to-animate">
+                        <img src="images/work_1.jpg" alt="Image" class="img-responsive">
+                        <div class="fh5co-text">
+                        <h2>Project 1</h2>
+                        <span>Branding</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                    <a href="images/work_2.jpg" class="fh5co-project-item image-popup to-animate">
+                        <img src="images/work_2.jpg" alt="Image" class="img-responsive">
+                        <div class="fh5co-text">
+                        <h2>Project 2</h2>
+                        <span>Web</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="clearfix visible-sm-block"></div>
+
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                    <a href="images/work_3.jpg" class="fh5co-project-item image-popup to-animate">
+                        <img src="images/work_3.jpg" alt="Image" class="img-responsive">
+                        <div class="fh5co-text">
+                        <h2>Project 3</h2>
+                        <span>Web</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                    <a href="images/work_4.jpg" class="fh5co-project-item image-popup to-animate">
+                        <img src="images/work_4.jpg" alt="Image" class="img-responsive">
+                        <div class="fh5co-text">
+                        <h2>Project 4</h2>
+                        <span>UI/UX</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="clearfix visible-sm-block"></div>
+
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                    <a href="images/work_5.jpg" class="fh5co-project-item image-popup to-animate">
+                        <img src="images/work_5.jpg" alt="Image" class="img-responsive">
+                        <div class="fh5co-text">
+                        <h2>Project 1</h2>
+                        <span>Photography</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                    <a href="images/work_6.jpg" class="fh5co-project-item image-popup to-animate">
+                        <img src="images/work_6.jpg" alt="Image" class="img-responsive">
+                        <div class="fh5co-text">
+                        <h2>Project 2</h2>
+                        <span>Illustration</span>
+                        </div>
+                    </a>
+                </div>
+                
+                
         </div>
-        
-
-        <!--event features-->
-        <div class="row justify-content mt30">
-            <div class="col-12 col-md-6 col-lg-2.4">
-                <div class="icon_box_three">
-                    <div class="content">
-                        <h4>B plan Contest<br>( 12th August 2018)</h4>
-                        <p>It's the headliner event of IIIC where students and nascent startups across the country get a chance to showcase their business plans before the industry experts. Best ideas win cash prizes and an opportunity to avail the incubation facilities available with IIIC.                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-2.4">
-                <div class="icon_box_three">
-                    <div class="content">
-                        <h4>Online Ideathon</h4>
-                        <p>
-                            This is an online event organized by IIIC with a motive to transform ideas of curious minds into reality. Its gives young minds great opportunity to test their ability to ideate and innovate and bring their ideas alive. So, what are you waiting for? Participate in online ideathon, no matter how vague the idea seems to you, who knows you may end up transforming the world. Come and win exciting prizes.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="icon_box_three">
-                    <div class="content">
-                        <h4>Talks-IIIC (12th August 2018)</h4>
-                        <p>
-                            IIIC organizes annual talk series by several eminent speakers from various fields like Technology, Entertainment and Design. These talks are wonderful to attend for audience to enrich themselves with subtle, unexplored, interesting domains of life and could possibly seed the notion of entrepreneurial zeal in the individual to think out of the box. So get ready to experience a fun yet informative and educative session.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="icon_box_three">
-                    <div class="content">
-                        <h4>Workshops</h4>
-                        <p>
-                            In order to foster innovation across the country and to take entrepreneurship a step ahead, IIIC brings for you a series of workshops which are organized by various tech-giants and personalities from various domains who are experts in their fields. To give you a deeper insight of the entrepreneurial world, a series of  workshops are organized by IIIC.
-                        </p>
-                    </div>
-                </div>
-            </div>
-			 <div class="col-12 col-lg-4">
-                <div class="icon_box_three">
-                    <div class="content">
-                        <h4>Online B-Quiz (10 June 2018 - 12 August 2018)</h4>
-                        <p>
-                            IIIC, presents to the young minds a challenging and informative online quiz with mind-boggling questions on Business and Entrepreneurship which will make you scratch your heads and think out of the box. Get ready to widen your arena of entrepreneurial knowledge and grab exciting cash prizes and goodies.
-
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--event features end-->
-    </div>
-</section>
+    </section>
 <!--about the event end -->
 
 <!--

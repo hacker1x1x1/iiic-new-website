@@ -4,7 +4,7 @@
   <?php require("header.php"); ?>
 
 	<body>
-	
+
 	<section id="home" class="home-cover">
     <div class="cover_slider owl-carousel owl-theme">
         <div class="cover_item" style="background: url('assets/img/bg/iiita3.jpg');">
@@ -147,24 +147,127 @@ We aim to create an entrepreneurial ecosystem and foster innovation across the c
 	</section>
         
       
-        <section id="fh5co-work" data-section="work">
+
+
+	<section id="fh5co-testimonials" data-section="testimonials">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">OUR MISSION</h2>
+					<h2 class="to-animate">Testimonials</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3> We, at IIIC, unlock the young minds by not only showing them the doors of opportunity but also equipping them with apt resources and technology to take entrepreneurship a step ahead in India and let the youth discover the hidden entrepreneur in them. Say welcome to your dreams at IIIC.</</h3>
+							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box-testimony">
+						<blockquote class="to-animate-2">
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+						</blockquote>
+						<div class="author to-animate">
+							<figure><img src="images/person1.jpg" alt="Person"></figure>
+							<p>
+							Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony">
+						<blockquote class="to-animate-2">
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;</p>
+						</blockquote>
+						<div class="author to-animate">
+							<figure><img src="images/person2.jpg" alt="Person"></figure>
+							<p>
+							John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="box-testimony">
+						<blockquote class="to-animate-2">
+							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;</p>
+						</blockquote>
+						<div class="author to-animate">
+							<figure><img src="images/person3.jpg" alt="Person"></figure>
+							<p>
+							Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</section>
+
+
+		<section id="fh5co-work" data-section="work">
+		<div class="container" class="slanted">
+			<div class="row">
+				<div class="col-md-12 section-heading text-left">
+					<h2 class=" left-border to-animate">OUR MISSION</h2>
+					<div class="row">
+						<div class="col-md-8 subtext to-animate">
+							<h3>We, at IIIC, unlock the young minds by not only showing them the doors of opportunity but also equipping them with apt resources and technology to take entrepreneurship a step ahead in India and let the youth discover the hidden entrepreneur in them. Say welcome to your dreams at IIIC.</h3>
 						</div>
 					</div>
 				</div>
 			</div>
 			
+		</div>
+	</section>
 
-
+	<section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
+		<div class="fh5co-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center to-animate">
+					<h2>Fun Facts</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-briefcase to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="89" data-speed="5000" data-refresh-interval="50">89</span>
+						<span class="fh5co-counter-label">Finished projects</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-code to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="2343409" data-speed="5000" data-refresh-interval="50">2343409</span>
+						<span class="fh5co-counter-label">Line of codes</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-cup to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="1302" data-speed="5000" data-refresh-interval="50">1302</span>
+						<span class="fh5co-counter-label">Cup of coffees</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-people to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="52" data-speed="5000" data-refresh-interval="50">52</span>
+						<span class="fh5co-counter-label">Happy clients</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
+
+
+        
     
         
   <?php require("footer.php"); ?>

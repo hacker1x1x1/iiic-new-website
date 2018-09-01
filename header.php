@@ -217,7 +217,6 @@
      </ul></li>
 					<li><a id="pd" href="product-dev.php" data-nav-section="about"><span>Product Dev</span></a></li>
 					
-		            <li><a id="contact" href="contact.php" target="_blank" data-nav-section="contact" ><span>Contact us</span></a></li>
 		          </ul>
 		        </div>
 				
