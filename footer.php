@@ -34,6 +34,9 @@ footer {
                             <li>
                                 <a href="https://www.facebook.com/pg/iiicallahabad/about/?ref=page_internal" target="_blank"><i class="ion-social-facebook"></i></a>
                             </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/iiicallahabad/" target="_blank"><i class="ion-social-linkedin"></i></a>
+                            </li>
                             <!-- <li>
                                 <a href="#"><i class="ion-social-twitter"></i></a>
                             </li> -->
