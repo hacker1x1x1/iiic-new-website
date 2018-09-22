@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Elate &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>IIITA INFO COMMUNICATION INCUBATION CENTRE</title>
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/et-line.css" rel="stylesheet">
     <link href="assets/css/ionicons.min.css" rel="stylesheet">
@@ -18,6 +18,9 @@
 	<link href="assets/css/main.css" rel="stylesheet">
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
+	<link rel="stylesheet" href="static/css/normalize.css">
+	<link rel="stylesheet" href="static/css/layout.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--
 	//////////////////////////////////////////////////////

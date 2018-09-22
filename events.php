@@ -8,6 +8,93 @@ include("header.php");
     opacity: 1;
     filter: blur(0px);
 }
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
 </style>
 <main>
 <!--page title section-->
@@ -29,64 +116,77 @@ include("header.php");
             </div>
             <div class="row row-bottom-padded-sm">
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                    <a href="images/work_1.jpg" class="fh5co-project-item image-popup to-animate">
-                        <img src="images/work_1.jpg" alt="Image" class="img-responsive">
-                        <div class="fh5co-text">
-                        <h2>Project 1</h2>
-                        <span>Branding</span>
-                        </div>
-                    </a>
+                    <img id="myImg" src="images/work_1.jpg" alt="IIIC, presented the young minds with a challenging and informative online quiz  with mind-boggling questions on Business and Entrepreneurship in the month of July. The quiz had a plethora of questions for everybody ranging from company histories to business strategies.  It was a great platform for anyone who wished to awake the hidden entrepreneur in him and to widen one's arena of entrepreneurial knowledge. Witnessing a huge participation, the event turned out to be a great success where the entrepreneurial zeal could be easily seen among the participants." style="width:345px;max-width:345px">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                    </div>
+                    <div class="fh5co-text">
+                        <h2>BIZQUIZ</h2>
+                    </div>
                 </div>
+            
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                    <a href="images/work_2.jpg" class="fh5co-project-item image-popup to-animate">
-                        <img src="images/work_2.jpg" alt="Image" class="img-responsive">
-                        <div class="fh5co-text">
-                        <h2>Project 2</h2>
-                        <span>Web</span>
-                        </div>
-                    </a>
+                    <img id="myImg" src="images/work_2.jpg" alt="Dreams are just ideas until you take the first step to make them happen.
+Keeping this thought in mind,  IIIC organised Ideation Contest' 18, on 13th August where students from various colleges came up with the prototypes of their innovative ideas which broke all the stereotypes and dogmas. The response from the participants was amazing and the ideas were unique and innovative which were judged by the experienced industry leaders where the best of the ideas got a golden opportunity to get a seed funding upto 25 lacs." style="width:345px;max-width:345px">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                    </div>
+                    <div class="fh5co-text">
+                        <h2>Ideation Contest</h2>
+                    </div>
                 </div>
 
-                <div class="clearfix visible-sm-block"></div>
 
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                    <a href="images/work_3.jpg" class="fh5co-project-item image-popup to-animate">
-                        <img src="images/work_3.jpg" alt="Image" class="img-responsive">
-                        <div class="fh5co-text">
-                        <h2>Project 3</h2>
-                        <span>Web</span>
-                        </div>
-                    </a>
+                    <img id="myImg" src="images/work_3.jpg" alt="To motivate and educate people about entrepreneurship, IIIC organizes its flagship event, E-Summit which serves as a common meeting ground for various tech-gaints, industry experts and young budding entrepreneurs accross the country.  Its a great opportunity where people get a chance to hone their entrepreneurial skills and also learn the skills to ideate from various tech-talks organised during this period. It has a great line-up of events to motivate budding entrepreneurs and to spread knowledge about Business and entrepreneurship. So fasten up your seat belts, as IIIC is here to give you a taste of startup world. " style="width:345px;max-width:345px">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                    </div>
+                    <div class="fh5co-text">
+                        <h2>E-Summit</h2>
+                    </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                    <a href="images/work_4.jpg" class="fh5co-project-item image-popup to-animate">
-                        <img src="images/work_4.jpg" alt="Image" class="img-responsive">
-                        <div class="fh5co-text">
-                        <h2>Project 4</h2>
-                        <span>UI/UX</span>
-                        </div>
-                    </a>
+                    <img id="myImg" src="images/work_4.jpg" alt="It's the headliner event of IIIC where students and nascent startups across the country get a chance to showcase their business plans before the industry experts. Best ideas win cash prizes and an opportunity to avail the incubation facilities available with IIIC. To help students and start-ups from IIITA, IIIC will be organising a business plan writing workshop within the premises of IIITA, where students get to know what, why and hows of ‘Business Plan Writing’." style="width:345px;max-width:345px">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                    </div>
+                    <div class="fh5co-text">
+                        <h2>B plan Contest</h2>
+                    </div>
                 </div>
                 
                 <div class="clearfix visible-sm-block"></div>
 
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                    <a href="images/work_5.jpg" class="fh5co-project-item image-popup to-animate">
-                        <img src="images/work_5.jpg" alt="Image" class="img-responsive">
-                        <div class="fh5co-text">
-                        <h2>Project 1</h2>
-                        <span>Photography</span>
-                        </div>
-                    </a>
+                    <img id="myImg" src="images/work_5.jpg" alt="IIIC, presented the young minds with a challenging and informative online quiz  with mind-boggling questions on Business and Entrepreneurship in the month of July. The quiz had a plethora of questions for everybody ranging from company histories to business strategies.  It was a great platform for anyone who wished to awake the hidden entrepreneur in him and to widen one's arena of entrepreneurial knowledge. Witnessing a huge participation, the event turned out to be a great success where the entrepreneurial zeal could be easily seen among the participants." style="width:345px;max-width:345px">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                    </div>
+                    <div class="fh5co-text">
+                        <h2>Online Ideathon</h2>
+                    </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                    <a href="images/work_6.jpg" class="fh5co-project-item image-popup to-animate">
-                        <img src="images/work_6.jpg" alt="Image" class="img-responsive">
-                        <div class="fh5co-text">
-                        <h2>Project 2</h2>
-                        <span>Illustration</span>
-                        </div>
-                    </a>
+                    <img id="myImg" src="images/work_6.jpg" alt="IIIC organizes annual talk series by several eminent speakers from various fields like Technology, Entertainment and Design. We expose the IIITA family to innovative ideas from distinguished personalities. These talks are wonderful to attend for audience to enrich themselves with subtle, unexplored, interesting domains of life and could possibly seed the notion of entrepreneurial zeal in the individual to think out of the box. So get ready to experience a fun yet informative and educative session. Be ready to witness some blazing talks by renowned personalities from various domains." style="width:345px;max-width:345px">
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                    </div>
+                    <div class="fh5co-text">
+                        <h2>Talks-IIIC</h2>
+                    </div>
                 </div>
                 
                 
@@ -204,6 +304,38 @@ include("header.php");
 </section>  -->
 <!--event calender end -->
 </main>
+
+<script>
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+function reply_click()
+{   
+    var img = document.getElementById('myImg');
+
+
+
+    var captionText = document.getElementById("caption");
+    var modalImg = document.getElementById("img01");
+    var modal = document.getElementById('myModal');
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+
 <?php
 
 include("footer.php");

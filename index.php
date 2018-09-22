@@ -127,8 +127,16 @@ We aim to create an entrepreneurial ecosystem and foster innovation across the c
 					<div class="overlay"></div>
 					<div class="fh5co-text">
 						<i class="fh5co-intro-icon icon-bulb"></i>
-						<h2>Plan</h2>
-						<p>Incubating promising, innovative startups and aspiring entrepreneurs."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim dolore magna aliqua"  </p>
+						<h2>Pitch</h2>
+						<p>The word pitch refers to a line of conversation that
+means to persuade or convince someone upon an
+idea.
+The first stage of the development of an idea into a
+product is the pitching of one's idea to the executive
+and gaining an investment for the same.
+The organisation should put value in the appointment
+of an idea coordinator whose role is to assess if the
+idea is beneficial enough for the company.</p>
 					
 					</div>
 				</div>
@@ -137,8 +145,17 @@ We aim to create an entrepreneurial ecosystem and foster innovation across the c
 					<div class="overlay"></div>
 					<div class="fh5co-text">
 						<i class="fh5co-intro-icon icon-wrench"></i>
-						<h2>Develop</h2>
-						<p>Providing startups with apt skills, technology, legal advisory, chartered accountants and Intellectual Property Rights experts for their business.Equipping them with funding, infrastructure and other resources.</p>
+						<h2>Build</h2>
+						<p>This is the last stage of development before the
+product is ready to come into the market and interact
+with the real user.
+Evaluate your product and record all the findings,
+flaws, recommendations and Kpi results. Present all
+your observations to the panel of experts.
+Organize a retrospective with all the idea process
+stakeholders. Decide if the product will be released for
+a full go-live.
+</p>
 						
 					</div>
 				</div>
@@ -147,8 +164,16 @@ We aim to create an entrepreneurial ecosystem and foster innovation across the c
 					<div class="overlay"></div>
 					<div class="fh5co-text">
 						<i class="fh5co-intro-icon icon-rocket"></i>
-						<h2>Launch</h2>
-						<p>Providing recruitment to the students of the Institute as interns and part time workers."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2>Ideate</h2>
+						<p>This process begins as soon as an idea strikes
+the creation. Pitching, prototyping, brainstorming,
+brainwriting are a few popular ideation techniques.
+The expert who has reviewed the brief of the idea
+pitched to him, now is able to completely comprehend
+the exposure and complexity of the idea. This will
+result in a more scoped and in- depth core version of
+the prototype.
+</p>
 					
 					</div>
 				</div>

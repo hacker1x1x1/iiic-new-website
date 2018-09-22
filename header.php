@@ -182,6 +182,12 @@
 		text-decoration: none;
 		outline: none;
 	}
+
+@media (max-width: 1200px) {
+  img {
+    display: none
+  }
+}
 	</style>
 	<!-- End demo purposes only -->
 	<header role="banner" id="fh5co-header">
@@ -194,8 +200,8 @@
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		            <span class="scroll-logo" > IIIC - IIITA</span>
-		            	<img src="images/white_iiic.png" id="Main-logo" class="main-logo" style="padding-right: 20px">
+		            <span class="scroll-logo" ><a href="index.php"><img class="icon1" style="padding-top:0px; max-width:270px;" src="assets/img/iiic_black.png" alt="Evento"></a></span>
+		            	<a href="index.php"><img src="images/white_iiic.png" id="Main-logo" class="main-logo" style="padding-right: 20px"></a>
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
@@ -216,6 +222,8 @@
       <li><a id="stdteam"href="/student_team.php" style="color:black;">Student</a></li>
      </ul></li>
 					<li><a id="pd" href="product-dev.php" data-nav-section="about"><span>Product Dev</span></a></li>
+
+					<li><a id="contact" href="contact.php" data-nav-section="about"><span>Contact Us</span></a></li>
 					
 		          </ul>
 		        </div>
