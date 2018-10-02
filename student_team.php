@@ -221,7 +221,7 @@ i:hover {
                 <div id="span">
                         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
                         <center style="font-size:25px; margin-top :-38px">Team</center>
-                        <a href="index.html"><img id="logo" src="static/img/logo.png" style="width :60px; height :auto; margin-top : -30px;" align="right"></a>
+                        <a href="index.html"><img id="logo" src="iiic2.png" style="width :60px; height :auto; margin-top : -30px;" align="right"></a>
                     </div>
                     
                 </div>
