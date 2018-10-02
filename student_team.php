@@ -209,7 +209,7 @@ i:hover {
         </script>
         <div id="header">
                 <div class="jumbotron text-center">
-                    <center><a href="index.html"><img id="logo" src="iiic2.png" style="width :60%;
+                    <center><a href="index.html"><img id="logo" src="iiic2.png" style="width :30%;
                     height :auto;"></a>
                    
                   <h1><font style="color : rgb(112, 112, 112) ;">Team IIIC</h1></div> 
