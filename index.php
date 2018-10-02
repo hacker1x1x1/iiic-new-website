@@ -5,11 +5,23 @@
 
 	<body>
 		<style>
+
 		#fh5co-services {
     background-color: #52d3aa;
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
     background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
-    background-image: -webkit-repeating-linear-gradient(top left, #007223 0%, #29647a 100%);
+    background-image: -webkit-repeating-linear-gradient(top left, #2c2f2d 0%, #29647a 100%);
+    background-image: repeating-linear-gradient(to bottom right, #072230%, #52d3aa 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+    overflow: hidden;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+}
+#fh5co-work {
+    background-color: #52d3aa;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+    background-image: -webkit-repeating-linear-gradient(top left, #2c2f2d 0%, #95becd 100%);
     background-image: repeating-linear-gradient(to bottom right, #072230%, #52d3aa 100%);
     background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
     overflow: hidden;
@@ -28,7 +40,7 @@
                             <h2 class="cover-title">
                                 iiita
                             </h2>
-                            <strong class="cover-xl-text">Info communication <br> incubation center</strong>
+                            <strong class="cover-xl-text" style="color:#fff">Info communication <br> incubation center</strong>
                             <!-- <p class="cover-date">
                                 12-14 February 2018  - Los Angeles, CA.
                             </p> -->
@@ -48,7 +60,7 @@
                             <h2 class="cover-title">
                                 Fostering
                             </h2>
-                            <strong class="cover-xl-text">entrepreneurship</strong>
+                            <strong class="cover-xl-text" style="color:#fff">entrepreneurship</strong>
                             <!-- <p class="cover-date">
                                 12-14 February 2018  - Los Angeles, CA.
                             </p>
@@ -68,7 +80,7 @@
                             <h2 class="cover-title">
                               got an idea?
                             </h2>
-                            <strong class="cover-xl-text" style="font-size: 48px;">convert it into a <br> product!</strong>
+                            <strong class="cover-xl-text" style="color:#fff; font-size: 48px;">convert it into a <br> product!</strong>
                             <!-- <p class="cover-date">
                                 12-14 February 2018  - Los Angeles, CA.
                             </p>
@@ -122,7 +134,7 @@ We aim to create an entrepreneurial ecosystem and foster innovation across the c
       	<section id="fh5co-intro">
 		<div class="container">
 			<div class="row row-bottom-padded-lg">
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
+				<div class="fh5co-block to-animate" style="background-image: url(images/pitch.jpg);">
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
 					<div class="fh5co-text">
@@ -140,7 +152,7 @@ idea is beneficial enough for the company.</p>
 					
 					</div>
 				</div>
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
+				<div class="fh5co-block to-animate" style="background-image: url(images/build.jpg);">
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
 					<div class="fh5co-text">
@@ -159,7 +171,7 @@ a full go-live.
 						
 					</div>
 				</div>
-				<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
+				<div class="fh5co-block to-animate" style="background-image: url(images/ideate.jpg);">
 					<div class="overlay-darker"></div>
 					<div class="overlay"></div>
 					<div class="fh5co-text">
@@ -192,23 +204,20 @@ the prototype.
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="to-animate">Testimonials</h2>
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
 					<div class="box-testimony">
 						<blockquote class="to-animate-2">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+							<p>I am extremely obliged and grateful to get the valuable and esteemed opportunity. I hereby confirm my participation and joining. I will send the required files within the stipulated time.
+Thanks a lot for your revered cooperation and support.</p>
 						</blockquote>
 						<div class="author to-animate">
 							<figure><img src="images/person1.jpg" alt="Person"></figure>
 							<p>
-							Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							Sarthak Sengupta, BTech(CSE), MBA-PhD (Pursuing) <a href="https://www.iiita.ac.in/" target="_blank">IIIT- Allahabad</a> <span class="subtext">IEEE Member</span>
 							</p>
 						</div>
 					</div>
@@ -216,12 +225,12 @@ the prototype.
 				<div class="col-md-4">
 					<div class="box-testimony">
 						<blockquote class="to-animate-2">
-							<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;</p>
+							<p>&ldquo;A dream doesn't become real with magic,IIIC is standing as a bridge in helping us reach our dreams. It was a sigh of relief working with proper guidance and exposure with great ventures. The environment is so healthy and provides confidence to sustain as a startup with ease. Here our Entrepreneurial skills are moulded and subjected to crucial verification which makes us understand where we stand out and lack. The best platform for an Entrepreneurial ecosystem indeed &rdquo;</p>
 						</blockquote>
 						<div class="author to-animate">
 							<figure><img src="images/person2.jpg" alt="Person"></figure>
 							<p>
-							John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							Komala maran, BTech(CSE), MBA-PhD (Pursuing) <a href="https://www.iiita.ac.in/" target="_blank">IIIT- Allahabad</a> <span class="subtext">IEEE Member</span>
 							</p>
 						</div>
 					</div>
@@ -235,7 +244,7 @@ the prototype.
 						<div class="author to-animate">
 							<figure><img src="images/person3.jpg" alt="Person"></figure>
 							<p>
-							Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							Komala maran, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
 							</p>
 						</div>
 					</div>

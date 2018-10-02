@@ -1,5 +1,22 @@
 <?php require("header.php"); ?>
 
+
+<style>
+    .alt-font text-medium text-extra-dark-gray margin-5px-bottom display-block{
+        font-family: "Source Sans Pro", Arial, sans-serif;
+    }
+    #fh5co-work {
+    background-color: #52d3aa;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…AiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
+    background-image: -webkit-repeating-linear-gradient(top left, #2c2f2d 0%, #95becd 100%);
+    background-image: repeating-linear-gradient(to bottom right, #072230%, #52d3aa 100%);
+    background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
+    overflow: hidden;
+    position: relative;
+    color: rgba(255, 255, 255, 0.7);
+}
+</style>
         <section id="fh5co-work" data-section="work">
 		<div class="container">
             <div class="row">

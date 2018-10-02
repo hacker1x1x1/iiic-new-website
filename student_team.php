@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="static/css/layout.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+    .portfolio img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 0;
+    -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
         i{
   margin: 6px;
 }
@@ -176,7 +184,7 @@ i:hover {
 
 </head>
 <body>
-        <div class="back"><a href="index.html"><h1></h1></a></div>
+        <div class="back"><a href="index.<?php  ?>"><h1><i class="fa fa-home" aria-hidden="true"></i></h1></a></div>
         <div id="mySidenav" class="sidenav">
             <center>
                 <div class="back-mob"><a href="index.html"><h1><i class="fa fa-home" aria-hidden="true"></i></h1></a></div>

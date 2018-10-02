@@ -111,6 +111,7 @@ include("header.php");
     opacity: 1.5;
     filter: blur(0px);
 }
+
 </style>
 <!--page title section-->
 <section class="inner_cover parallax-mirror" data-parallax="scroll" data-image-src="assets/img/123.jpeg">
@@ -119,8 +120,8 @@ include("header.php");
         <div class="row justify-content-center align-items-center">
             <div class="col-12">
                 <div class="inner_cover_content">
-                    <h3 style="color:#fff" class="pdc">
-                        Product Development Cell
+                    <h3  class="pdc" >
+                        <span style="color:rgba(255,255,255,1)">Product Development Cell</span>
                     </h3>
                 </div>
             </div>
