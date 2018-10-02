@@ -190,11 +190,13 @@ i:hover {
                 <div class="back-mob"><a href="index.html"><h1><i class="fa fa-home" aria-hidden="true"></i></h1></a></div>
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="#" class="filter active" data-filter=".all" onclick="closeNav()" >All</a>
-                <a href="#" class="filter" data-filter=".finance" onclick="closeNav()">Finance</a>
-                <a href="#" class="filter" data-filter=".management" onclick="closeNav()">Management</a>
-                <a href="#" class="filter" data-filter=".branding" onclick="closeNav()">Branding</a>
-                <a href="#" class="filter" data-filter=".technical" onclick="closeNav()">Technical</a>
-                <a href="#" class="filter" data-filter=".hospitality" onclick="closeNav()">Hospitality</a>
+                <a href="#" class="filter" data-filter=".finance" onclick="closeNav()">Overall Coordinators</a>
+                <a href="#" class="filter" data-filter=".management" onclick="closeNav()">Corporate Relations</a>
+                <a href="#" class="filter" data-filter=".branding" onclick="closeNav()">Public Relations and Marketing</a>
+                <a href="#" class="filter" data-filter=".technical" onclick="closeNav()">Media Management</a>
+                <a href="#" class="filter" data-filter=".hospitality" onclick="closeNav()">Events</a>
+                <a href="#" class="filter" data-filter=".hospitality2" onclick="closeNav()">Web Operations</a>
+                <a href="#" class="filter" data-filter=".hospitality3" onclick="closeNav()">Design  </a>
             </center>
               </div>
 
