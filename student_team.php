@@ -184,7 +184,7 @@ i:hover {
 
 </head>
 <body>
-        <div class="back"><a href="index.php  ?>"><h1><i class="fa fa-home" aria-hidden="true"></i></h1></a></div>
+        <div class="back"><a href="index.php"><h1><i class="fa fa-home" aria-hidden="true"></i></h1></a></div>
         <div id="mySidenav" class="sidenav">
             <center>
                 <div class="back-mob"><a href="index.html"><h1><i class="fa fa-home" aria-hidden="true"></i></h1></a></div>
