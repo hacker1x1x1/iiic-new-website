@@ -340,7 +340,7 @@ body{
         /* Footer Start */
 #footer {
     margin-top :80px; 
-	background: linear-gradient(330deg, #4C4491 0%, #FD5C63 100%);
+	background: linear-gradient(top left, #2c2f2d 0%, #29647a 100%	);
   color: #fff; 
 }
 #footer .footer-text{

@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="static/css/layout.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+
+    #footer {
+    margin-top: 80px;
+    background: -webkit-repeating-linear-gradient(top left, #2c2f2d 0%, #7f9097  100%);
+    color: #fff;
+}
     .portfolio img {
     width: 300px;
     height: 300px;
@@ -211,7 +217,7 @@ i:hover {
         </script>
         <div id="header">
                 <div class="jumbotron text-center">
-                    <center><a href="index.html"><img id="logo" src="iiic2.png" style="width :30%;
+                    <center><a href="index.php"><img id="logo" src="iiic2.png" style="width :30%;
                     height :auto;"></a>
                    
                   <h1><font style="color : rgb(112, 112, 112) ;">Team IIIC</h1></div> 
@@ -221,7 +227,7 @@ i:hover {
                 <div id="span">
                         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
                         <center style="font-size:25px; margin-top :-38px">Team</center>
-                        <a href="index.html"><img id="logo" src="iiic2.png" style="width :60px; height :auto; margin-top : -30px;" align="right"></a>
+                        <a href="index.php"><img id="logo" src="iiic2.png" style="width :60px; height :auto; margin-top : -30px;" align="right"></a>
                     </div>
                     
                 </div>
@@ -372,7 +378,7 @@ i:hover {
                             <div class="portfolio branding all" data-cat="branding">
                                     <div class="portfolio-wrapper">
                                             <div class="image">             
-                                    <img src="team/madhur.jpg" onclick="void(0)" alt="" />
+                                    <img src="team/madhur2.jpg" onclick="void(0)" alt="" />
                                     </div>
                                     <div class="label">
                                     <div class="label-text">
@@ -392,16 +398,16 @@ i:hover {
                             <div class="portfolio branding all" data-cat="branding">
                                     <div class="portfolio-wrapper">
                                             <div class="image">             
-                                    <img src="team/ph.jpg" onclick="void(0)" alt="" />
+                                    <img src="team/pradeep.jpg" onclick="void(0)" alt="" />
                                     </div>
                                     <div class="label">
                                     <div class="label-text">
-                                    <a class="text-title">Pradeep Kumar</a>
+                                    <a class="text-title">Pradeep Shakya</a>
                                     <span class="text-category">Head, Public Relations & Marketing</span>
                                     <p class="text">
                                             +91-6559635443
                                             <br><br>
-                                        <a href="https://www.facebook.com/madhurguptaiiita"" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                        <a href="https://www.facebook.com/profile.php?id=100009165867985"" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                         <a href="https://www.linkedin.com/in/madhurguptaiiita" target = "_blank"><i style="color:white; font-size:2.5em;" class="fa fa-linkedin" aria-hidden="true"></i></a>
                                     </p>
                                     </div>
@@ -432,7 +438,7 @@ i:hover {
                             <div class="portfolio branding all" data-cat="branding">
                                     <div class="portfolio-wrapper">
                                             <div class="image">             
-                                    <img src="team/pratham.jpg" onclick="void(0)" alt="" />
+                                    <img src="team/pratham2.jpeg" onclick="void(0)" alt="" />
                                     </div>
                                     <div class="label">
                                     <div class="label-text">
@@ -532,7 +538,7 @@ i:hover {
                             <div class="portfolio technical all" data-cat="technical">
                                     <div class="portfolio-wrapper">
                                             <div class="image">             
-                                    <img src="team/ph.jpg" onclick="void(0)" alt="" />
+                                    <img src="team/jasmeet2.jpg" onclick="void(0)" alt="" />
                                     </div>
                                     <div class="label">
                                     <div class="label-text">
@@ -691,6 +697,7 @@ i:hover {
                                 </div>
                                 </div>
                             </div>
+                            
                             <div class="portfolio hospitality all" data-cat="hospitality">
                                     <div class="portfolio-wrapper"> 
                                             <div class="image">         
@@ -754,26 +761,6 @@ i:hover {
                             <div class="portfolio hospitality2 all" data-cat="hospitality2">
                                     <div class="portfolio-wrapper"> 
                                             <div class="image">         
-                                    <img src="team/ekansh.jpg"  onclick="void(0)" alt="" />
-                                    </div>
-                                    <div class="label">
-                                    <div class="label-text">
-                                    <a class="text-title">Ekansh Bansal</a>
-                                    <span class="text-category">Executive, Web Operations</span>
-                                    <p class="text">
-                                            +91-8791683517
-                                            <br><br>
-                                        <a href="https://www.facebook.com/ekansh.bansal.77" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href="https://www.linkedin.com/in/ekanshbansal10/" target = "_blank"><i style="color:white; font-size:2.5em;" class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    </p>
-                                    </div>
-                                <div class="label-bg"></div>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="portfolio hospitality2 all" data-cat="hospitality2">
-                                    <div class="portfolio-wrapper"> 
-                                            <div class="image">         
                                     <img src="team/rudransh.jpg"  onclick="void(0)" alt="" />
                                     </div>
                                     <div class="label">
@@ -790,27 +777,7 @@ i:hover {
                                 <div class="label-bg"></div>
                                 </div>
                                 </div>
-                            </div>
-                            <div class="portfolio hospitality2 all" data-cat="hospitality2">
-                                    <div class="portfolio-wrapper"> 
-                                            <div class="image">         
-                                    <img src="team/jigar.jpg"  onclick="void(0)" alt="" />
-                                    </div>
-                                    <div class="label">
-                                    <div class="label-text">
-                                    <a class="text-title">Jigar Chavada</a>
-                                    <span class="text-category">Executive, Web Operations</span>
-                                    <p class="text">
-                                            +91-9594881428
-                                            <br><br>
-                                        <a href="https://www.facebook.com/jsc3998" target = "_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href="https://in.linkedin.com/in/jsc39/" target = "_blank"><i style="color:white; font-size:2.5em;" class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    </p>
-                                    </div>
-                                <div class="label-bg"></div>
-                                </div>
-                                </div>
-                            </div>
+                            </div> 
                             <div class="portfolio hospitality3 all" data-cat="hospitality3">
                                     <div class="portfolio-wrapper"> 
                                             <div class="image">         
